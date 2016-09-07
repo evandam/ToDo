@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "description": "Simple To-Do app using React, Node, and MongoDB",
+  "main": "gulpfile.js",
+  "authors": [
+    "Evan Van Dam"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/evandam/ToDO",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0"
+  }
+}

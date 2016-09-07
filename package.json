@@ -1,0 +1,52 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Simple To-Do app using React, Node, and MongoDB",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evandam/ToDo.git"
+  },
+  "author": "Evan Van Dam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evandam/ToDo/issues"
+  },
+  "homepage": "https://github.com/evandam/ToDo#readme",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-bower-src": "^0.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-express": "^0.3.5",
+    "gulp-filter": "^4.0.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "paths": {
+    "server": {
+      "files": "./server/**/*.js",
+      "app": "./server/server.js"
+    },
+    "src": {
+      "js": "./app/**/*.js",
+      "html": "./app/index.html",
+      "app": "./app/app.js"
+    },
+    "dest": {
+      "dir": "./public",
+      "bundle": "bundle.js",
+      "libs": "./public/lib"
+    }
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.0"
+  }
+}
